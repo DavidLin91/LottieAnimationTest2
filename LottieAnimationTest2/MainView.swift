@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LaunchAnimationView: UIView {
+class MainView: UIView {
 
     public lazy var title: UILabel = {
         let label = UILabel()

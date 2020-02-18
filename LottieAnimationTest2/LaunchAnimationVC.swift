@@ -11,12 +11,12 @@ import Lottie
 
 class LaunchAnimationVC: UIViewController {
 
-  private var launchAnimationView = LaunchAnimationView()
+    private var mainView = MainView()
     private var animationView = AnimationView()
     
     
     override func loadView() {
-       view = launchAnimationView
+       view = mainView
     }
 
     override func viewDidLoad() {
@@ -25,19 +25,25 @@ class LaunchAnimationVC: UIViewController {
     }
 
 
-    override func viewDidAppear(_ animated: Bool) {
-        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2) {
-            self.runLottieAnimation()
+    override func viewWillAppear(_ animated: Bool) {
+        self.runLottieAnimation()
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3) {
+            self.removeAnimationScreen()
         }
     }
-    
-    
+
+
     func runLottieAnimation() {
-        
+        view.addSubview(animationView)
+        animationView.startAnimation()
     }
-    
-    
-    
+
+
+    func removeAnimationScreen() {
+        animationView.removeFromSuperview()
+    }
+
+
     
     
 

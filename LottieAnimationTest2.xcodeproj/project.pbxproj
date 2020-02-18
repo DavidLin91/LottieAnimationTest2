@@ -13,7 +13,7 @@
 		639A40D223FB5E50007088E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639A40D023FB5E50007088E1 /* LaunchScreen.storyboard */; };
 		639A40DD23FB5E50007088E1 /* LottieAnimationTest2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639A40DC23FB5E50007088E1 /* LottieAnimationTest2Tests.swift */; };
 		639A40E823FB5ED1007088E1 /* LaunchAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639A40E723FB5ED1007088E1 /* LaunchAnimationVC.swift */; };
-		639A40EA23FB5F02007088E1 /* LaunchAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639A40E923FB5F02007088E1 /* LaunchAnimationView.swift */; };
+		639A40EA23FB5F02007088E1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639A40E923FB5F02007088E1 /* MainView.swift */; };
 		639A40EE23FB5F30007088E1 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639A40ED23FB5F30007088E1 /* AnimationView.swift */; };
 		639A40F123FB6184007088E1 /* bookStackAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 639A40F023FB6184007088E1 /* bookStackAnimation.json */; };
 		EF9B892B6377AAEA8D2BF8D9 /* Pods_LottieAnimationTest2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A2B19E2C6CF3BA163B21C5 /* Pods_LottieAnimationTest2.framework */; };
@@ -41,7 +41,7 @@
 		639A40DC23FB5E50007088E1 /* LottieAnimationTest2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationTest2Tests.swift; sourceTree = "<group>"; };
 		639A40DE23FB5E50007088E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		639A40E723FB5ED1007088E1 /* LaunchAnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAnimationVC.swift; sourceTree = "<group>"; };
-		639A40E923FB5F02007088E1 /* LaunchAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAnimationView.swift; sourceTree = "<group>"; };
+		639A40E923FB5F02007088E1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		639A40ED23FB5F30007088E1 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		639A40F023FB6184007088E1 /* bookStackAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bookStackAnimation.json; sourceTree = "<group>"; };
 		83CCC51437A909C73B4D29C8 /* Pods-LottieAnimationTest2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimationTest2.debug.xcconfig"; path = "Target Support Files/Pods-LottieAnimationTest2/Pods-LottieAnimationTest2.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				639A40E723FB5ED1007088E1 /* LaunchAnimationVC.swift */,
-				639A40E923FB5F02007088E1 /* LaunchAnimationView.swift */,
+				639A40E923FB5F02007088E1 /* MainView.swift */,
 				639A40ED23FB5F30007088E1 /* AnimationView.swift */,
 				639A40EF23FB6129007088E1 /* Supporting Files */,
 				639A40D323FB5E50007088E1 /* Info.plist */,
@@ -285,7 +285,7 @@
 				639A40C623FB5E4B007088E1 /* AppDelegate.swift in Sources */,
 				639A40EE23FB5F30007088E1 /* AnimationView.swift in Sources */,
 				639A40E823FB5ED1007088E1 /* LaunchAnimationVC.swift in Sources */,
-				639A40EA23FB5F02007088E1 /* LaunchAnimationView.swift in Sources */,
+				639A40EA23FB5F02007088E1 /* MainView.swift in Sources */,
 				639A40C823FB5E4B007088E1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
